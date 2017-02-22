@@ -1,0 +1,150 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url("../images/train.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2 {
+    font-family: 'Caveat Brush';
+    font-family: 'Bad Script', cursive;
+    font-weight: normal;
+    margin: 0px;
+}
+h1 {
+    font-size: 75px;
+}
+header h1 {
+    font-size: 100px;
+}
+header h2 {
+    font-size: 32px;
+}
+header h6 {
+    text-align: center;
+}
+header strong {
+    color: #9D6381;
+}
+
+header, section {
+    padding: 100px 150px;
+}
+
+header {
+    background-color: #CECCCC;
+}
+.movementClassification, .trafficLight{
+    overflow: hidden;
+    background-color: rgba(157,99,129,0.85);
+}
+.camDotCom, .VRFB {
+    overflow: hidden;
+    background-color: rgba(75, 95, 120, 1);
+}
+.insightUBC {
+    overflow: hidden;
+    background-color: rgba(100, 90, 140, .85);
+}
+.mindTheGap {
+    overflow: hidden;
+    background-color: rgba(110, 90, 120, 1);
+}
+.container {
+    float: right;
+}
+img {
+    max-width: 100%
+}
+a {
+    color: #9D6381;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.Home {
+    background-color: rgba(100, 70, 140, 1);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 134px;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+.interests ul {
+    text-align: center;
+    max-width: 601px;
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0px;
+}
+.interestsDiv {
+    text-align: center;
+}
+nav li, .interests li {
+    float: left;
+}
+nav a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #111;
+}
+div .wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+div .navContent {
+    float: left;
+    position: relative;
+    left: -50%;
+}
+
+/* GitHub on hover*/
+
+.container:hover .gitHubLogo {
+    opacity: 0.5;
+}
+.container:hover .overlayMiddle {
+    opacity: 1;
+}
+.gitHubLogo {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.overlayMiddle {
+    transition: .7s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+.container {
+    position: relative;
+}
+.overlayText {
+    text-align: center;
+    font-size: 16px;
+}
+.overlayText p {
+    color: black;
+}
