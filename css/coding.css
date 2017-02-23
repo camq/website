@@ -44,6 +44,42 @@ header, section {
 header {
     background-color: #CECCCC;
 }
+img {
+    max-width: 100%
+}
+a {
+    color: #9D6381;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Handles the navigation bar at the top of the page */
+nav a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #111;
+}
+nav li {
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 134px;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+.Home {
+    background-color: rgba(100, 70, 140, 1);
+}
+
+
+/* Handles the background colours of the sections */
 .movementClassification, .trafficLight{
     overflow: hidden;
     background-color: rgba(157,99,129,0.85);
@@ -60,63 +96,9 @@ header {
     overflow: hidden;
     background-color: rgba(110, 90, 120, 1);
 }
-.container {
-    float: right;
-}
-img {
-    max-width: 100%
-}
-a {
-    color: #9D6381;
-    font-size: 18px;
-    line-height: 1.5;
-}
-.Home {
-    background-color: rgba(100, 70, 140, 1);
-}
-nav ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px 134px;
-    overflow: hidden;
-    background-color: #333;
-    text-align: center;
-}
-.interests ul {
-    text-align: center;
-    max-width: 601px;
-    list-style-type: none;
-    margin: 0px auto;
-    padding: 0px;
-}
-.interestsDiv {
-    text-align: center;
-}
-nav li, .interests li {
-    float: left;
-}
-nav a {
-    display: inline-block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-nav a:hover {
-    background-color: #111;
-}
-div .wrap {
-    float: left;
-    position: relative;
-    left: 50%;
-}
-div .navContent {
-    float: left;
-    position: relative;
-    left: -50%;
-}
 
-/* GitHub on hover*/
 
+/* Handles when a client hovers over the gitHub logo*/
 .container:hover .gitHubLogo {
     opacity: 0.5;
 }
@@ -140,6 +122,7 @@ div .navContent {
 }
 .container {
     position: relative;
+    float: right;
 }
 .overlayText {
     text-align: center;
