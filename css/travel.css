@@ -27,6 +27,11 @@ header img {
     border-radius: 0;
     float: left;
 }
+.flag {
+    height: 75px;
+    float: none;
+    padding-bottom: 50px;
+}
 a {
     color: #000000;
 }
