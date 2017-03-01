@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-image: url(../images/train.JPG);
+  background-image: url(../travel/images/Genoa.JPG);
   background-image:
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -17,12 +17,19 @@ body {
   padding: 0px;
 }
 img {
-    max-width: 100%
+    max-width: 100%;
+    border-radius: 10%;
+    float: right;
+}
+header img {
+    border-radius: 0;
+    float: left;
 }
 a {
-    color: #9D6381;
-    font-size: 18px;
-    line-height: 1.5;
+    color: #000000;
+}
+a:hover {
+    color: #0000a0;
 }
 
 /* Handles the header sytle */
@@ -55,45 +62,25 @@ header, section {
 header {
     background-color: #CECCCC;
 }
-/* Handles the navigation bar at the top of the page */
-nav a {
-    display: inline-block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-nav a:hover {
-    background-color: #111;
-}
-nav li {
-    float: left;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px 134px;
-    overflow: hidden;
-    background-color: #333;
-    text-align: center;
-}
-.Home {
-    background-color: rgba(100, 70, 140, 1);
-}
 
 /* Handles the background colours of the sections */
 .London, .Milan, .Belgrade, .Munich, .Krakow, .Malmo, .Luxembourg_City {
     overflow: hidden;
-    background-color: rgba(157,99,129,0.85);
+    background-color: rgba(75, 95, 120, 0.85);
+    /*background-color: rgba(157,99,129,0.85);*/
 }
-.Paris, .Zurich, .Zagreb, .Prague, .Gorzow, .Hamburg, .Lille {
+.Paris, .Zurich, .Zagreb, .Prague, .Gorzow, .Hamburg, .Vimy_Ridge {
     overflow: hidden;
-    background-color: rgba(75, 95, 120, 1);
+    background-color: rgba(157,99,129, 1);
+    /*background-color: rgba(75, 95, 120, 1);*/
 }
-.Nice, .Vienna, .Ljubljana, .Ostrava, .Berlin, .Amsterdam {
+.Nice, .Vienna, .Ljubljana, .Ostrava, .Berlin, .Amsterdam, .Lille {
     overflow: hidden;
-    background-color: rgba(100, 90, 140, .85);
+    background-color: rgba(110, 90, 120, 0.85);
+    /*background-color: rgba(100, 90, 140, .85);*/
 }
 .Genoa, .Budapest, .Lake_Bled, .Kosice, .Copenhagen, .Brussels {
     overflow: hidden;
-    background-color: rgba(110, 90, 120, 1);
+    background-color: rgba(100, 90, 140, 1);
+    /*background-color: rgba(110, 90, 120, 1);*/
 }
