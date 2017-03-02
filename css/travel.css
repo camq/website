@@ -25,7 +25,8 @@ img {
 }
 header img {
     border-radius: 0;
-    float: left;
+    float: none;
+    max-width: 100%;
 }
 .flag {
     height: 75px;
@@ -74,20 +75,16 @@ header {
 .London, .Milan, .Belgrade, .Munich, .Krakow, .Malmo, .Luxembourg_City {
     overflow: hidden;
     background-color: rgba(75, 95, 120, 0.9);
-    /*background-color: rgba(157,99,129,0.85);*/
 }
 .Paris, .Zurich, .Zagreb, .Prague, .Gorzow, .Hamburg, .Vimy_Ridge {
     overflow: hidden;
     background-color: rgba(157,99,129, 1);
-    /*background-color: rgba(75, 95, 120, 1);*/
 }
 .Nice, .Vienna, .Ljubljana, .Ostrava, .Berlin, .Amsterdam, .Lille {
     overflow: hidden;
     background-color: rgba(110, 90, 120, 0.9);
-    /*background-color: rgba(100, 90, 140, .85);*/
 }
 .Genoa, .Budapest, .Lake_Bled, .Kosice, .Copenhagen, .Brussels {
     overflow: hidden;
     background-color: rgba(100, 90, 140, 1);
-    /*background-color: rgba(110, 90, 120, 1);*/
 }
