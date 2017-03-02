@@ -33,6 +33,10 @@ header img {
     float: none;
     padding-bottom: 50px;
 }
+.nav_flag {
+    height: 30px;
+    float: none;
+}
 a {
     color: #000000;
 }
@@ -41,7 +45,7 @@ a:hover {
 }
 
 /* Handles the header sytle */
-h1, h2 {
+h1, h3 {
     font-family: 'Caveat Brush';
     font-family: 'Bad Script', cursive;
     font-weight: normal;
@@ -53,7 +57,7 @@ h1 {
 header h1 {
     font-size: 100px;
 }
-header h2 {
+header h3 {
     font-size: 32px;
 }
 header h6 {
@@ -63,13 +67,46 @@ header strong {
     color: #9D6381;
 }
 
-header, section {
+section {
     padding: 100px 150px;
 }
 
 header {
     background-color: #CECCCC;
+    padding: 100px 150px 50px;
 }
+
+
+/* Handles the navigation bar at the top of the page */
+nav a {
+    /*font-size: 25px;*/
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    padding: 11px 13px 5px 6px;
+    text-decoration: none;
+}
+nav .Home {
+    padding: 14px 16px
+}
+nav a:hover {
+    background-color: #111;
+}
+nav li {
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 134px;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+nav .Home {
+    background-color: rgba(100, 70, 140, 1);
+}
+
 
 /* Handles the background colours of the sections */
 .London, .Milan, .Belgrade, .Munich, .Krakow, .Malmo, .Luxembourg_City {
