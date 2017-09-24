@@ -48,7 +48,8 @@ img {
     max-width: 100%
 }
 a {
-    color: #9D6381;
+    /*color: #9D6381;*/
+    color: #202080;
     font-size: 18px;
     line-height: 1.5;
 }
@@ -82,19 +83,19 @@ nav ul {
 /* Handles the background colours of the sections */
 .movementClassification, .trafficLight{
     overflow: hidden;
-    background-color: rgba(157,99,129,0.85);
+    background-color: rgba(157,99,129, 1);
 }
 .camDotCom, .VRFB {
     overflow: hidden;
-    background-color: rgba(75, 95, 120, 1);
+    background-color: rgba(75, 95, 120, .85);
 }
 .insightUBC {
     overflow: hidden;
-    background-color: rgba(100, 90, 140, .85);
+    background-color: rgba(100, 90, 140, 1);
 }
-.mindTheGap {
+.mindTheGap, .Specialized {
     overflow: hidden;
-    background-color: rgba(110, 90, 120, 1);
+    background-color: rgba(110, 90, 120, .85);
 }
 
 
