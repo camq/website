@@ -79,13 +79,17 @@ nav ul {
     background-color: rgba(100, 70, 140, 1);
 }
 
+.M3Img {
+    max-height: 300px;
+}
+
 
 /* Handles the background colours of the sections */
 .movementClassification, .trafficLight{
     overflow: hidden;
     background-color: rgba(157,99,129, 1);
 }
-.camDotCom, .VRFB {
+.camDotCom, .VRFB, .sonar {
     overflow: hidden;
     background-color: rgba(75, 95, 120, .85);
 }
