@@ -89,7 +89,7 @@ nav ul {
     overflow: hidden;
     background-color: rgba(75, 95, 120, .85);
 }
-.insightUBC {
+.insightUBC, .RTL510 {
     overflow: hidden;
     background-color: rgba(100, 90, 140, 1);
 }
