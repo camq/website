@@ -1,0 +1,134 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url("../images/bridge2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2 {
+    font-family: 'Caveat Brush';
+    font-family: 'Bad Script', cursive;
+    font-weight: normal;
+    margin: 0px;
+}
+h1 {
+    font-size: 75px;
+}
+header h1 {
+    font-size: 100px;
+}
+header h2 {
+    font-size: 32px;
+}
+header h6 {
+    text-align: center;
+}
+header strong {
+    color: #9D6381;
+}
+
+header, section {
+    padding: 100px 150px;
+}
+
+header {
+    background-color: #CECCCC;
+}
+img {
+    max-width: 100%
+}
+a {
+    /*color: #9D6381;*/
+    color: #202080;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Handles the navigation bar at the top of the page */
+nav a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #111;
+}
+nav li {
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 134px;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+.Home {
+    background-color: rgba(100, 70, 140, 1);
+}
+
+
+/* Handles the background colours of the sections */
+.movementClassification, .trafficLight{
+    overflow: hidden;
+    background-color: rgba(157,99,129, 1);
+}
+.camDotCom, .VRFB {
+    overflow: hidden;
+    background-color: rgba(75, 95, 120, .85);
+}
+.insightUBC {
+    overflow: hidden;
+    background-color: rgba(100, 90, 140, 1);
+}
+.mindTheGap, .Specialized {
+    overflow: hidden;
+    background-color: rgba(110, 90, 120, .85);
+}
+
+
+/* Handles when a client hovers over the gitHub logo*/
+.container:hover .gitHubLogo {
+    opacity: 0.5;
+}
+.container:hover .overlayMiddle {
+    opacity: 1;
+}
+.gitHubLogo {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.overlayMiddle {
+    transition: .7s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+.container {
+    position: relative;
+    float: right;
+}
+.overlayText {
+    text-align: center;
+    font-size: 16px;
+}
+.overlayText p {
+    color: black;
+}
